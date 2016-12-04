@@ -2,9 +2,8 @@ import json
 
 
 def load_data(filepath):
-    json_file = open(filepath)
-    json_data = json.load(json_file)
-    json_file.close()
+    with open(filepath) as json_file:
+        json_data = json.load(json_file)
     return json_data
 
 
