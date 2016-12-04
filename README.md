@@ -1,4 +1,4 @@
-<h2><b>Easy json pretty print</b></h1>
+<h2><b>Easy json pretty print with python</b></h1>
 <hr>
 <h3>This script runs on <b>python 3.5</b> and higher<h3>
 <h4>The program requires json module, which is usually auto installed with python packages.</h4>
